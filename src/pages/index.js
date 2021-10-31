@@ -1,3 +1,5 @@
+import Link from 'next/link';
+
 export default function Index({}) {
   return (
     <section className="bg-gray-700 h-screen">
@@ -6,15 +8,16 @@ export default function Index({}) {
           <h1 className="font-semibold text-8xl text-blue-200 leading-normal mb-4">
             Welcome to my portfolio
           </h1>
+
           <p className="text-blue-100 text-2xl leading-loose">
             My name is Muhammad Usman Ghani im 22 years old.
           </p>
 
           <p className="text-blue-100 text-2xl leading-loosel">
             I'm a front-end engineer at.{' '}
-            <a href="www.mvssive.com" className="text-yellow-600 hover:text-yellow-500">
-              Mvssive ventures
-            </a>
+            <Link href="www.mvssive.com">
+              <a className="text-yellow-600 hover:text-yellow-500">Mvssive ventures</a>
+            </Link>
           </p>
 
           <p className="text-blue-100 text-2xl leading-loose">
