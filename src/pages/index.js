@@ -14,7 +14,7 @@ export default function Index({}) {
           </p>
 
           <p className="text-blue-100 text-2xl leading-loosel">
-            I'm a front-end engineer at.{' '}
+            Im a front-end engineer at.{' '}
             <Link href="www.mvssive.com">
               <a className="text-yellow-600 hover:text-yellow-500">Mvssive ventures</a>
             </Link>
