@@ -6,7 +6,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "push" : "git add . && git commit -m"
+    "push" : "git add . && git commit -m",
+    "postpush" : "git push --all"
   },
   "dependencies": {
     "next": "12.0.2",

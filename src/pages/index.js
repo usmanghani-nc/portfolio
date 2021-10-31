@@ -15,8 +15,10 @@ export default function Index({}) {
 
           <p className="text-blue-100 text-2xl leading-loosel">
             Im a front-end engineer at.{' '}
-            <Link href="www.mvssive.com">
-              <a className="text-yellow-600 hover:text-yellow-500">Mvssive ventures</a>
+            <Link href="https://mvssive.com/">
+              <a className="text-yellow-600 hover:text-yellow-500" target="_blank">
+                Mvssive ventures
+              </a>
             </Link>
           </p>
 
@@ -26,23 +28,25 @@ export default function Index({}) {
 
           <div className="mt-8">
             <Link href="https://github.com/usmanghanidev">
-              <a className="text-yellow-600 hover:text-yellow-500 mr-3">Github</a>
+              <a className="text-yellow-600 hover:text-yellow-500 mr-3" target="_blank">
+                Github
+              </a>
             </Link>
-            <a
-              href="https://twitter.com/usmanghanidev"
-              className="text-yellow-600 hover:text-yellow-500 mr-3">
-              Twitter
-            </a>
-            <a
-              href="https://www.hackerrank.com/usmanghanidev"
-              className="text-yellow-600 hover:text-yellow-500 mr-3">
-              Hacker Rank
-            </a>
-            <a
-              href="https://www.linkedin.com/in/muhammad-usman-ghani-92a97b195/"
-              className="text-yellow-600 hover:text-yellow-500">
-              Linkdin
-            </a>
+            <Link href="https://twitter.com/usmanghanidev">
+              <a className="text-yellow-600 hover:text-yellow-500 mr-3" target="_blank">
+                Twitter
+              </a>
+            </Link>
+            <Link href="https://www.hackerrank.com/usmanghanidev">
+              <a className="text-yellow-600 hover:text-yellow-500 mr-3" target="_blank">
+                Hacker Rank
+              </a>
+            </Link>
+            <Link href="https://www.linkedin.com/in/muhammad-usman-ghani-92a97b195/">
+              <a className="text-yellow-600 hover:text-yellow-500" target="_blank">
+                Linkdin
+              </a>
+            </Link>
           </div>
         </div>
       </div>
