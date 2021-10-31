@@ -25,11 +25,9 @@ export default function Index({}) {
           </p>
 
           <div className="mt-8">
-            <a
-              href="https://github.com/usmanghanidev"
-              className="text-yellow-600 hover:text-yellow-500 mr-3">
-              Github
-            </a>
+            <Link href="https://github.com/usmanghanidev">
+              <a className="text-yellow-600 hover:text-yellow-500 mr-3">Github</a>
+            </Link>
             <a
               href="https://twitter.com/usmanghanidev"
               className="text-yellow-600 hover:text-yellow-500 mr-3">
