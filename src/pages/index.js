@@ -4,29 +4,46 @@ export default function Index({}) {
   return (
     <section className="bg-gray-700 h-screen">
       <div className="container mx-auto h-full">
-        <div className="flex flex-col justify-center items-center h-full">
-          <h1 className="font-semibold text-8xl text-blue-200 leading-normal mb-4">
-            Welcome to my portfolio
-          </h1>
+        <div className="flex flex-col md:justify-center items-center h-full p-4 pt-20 md:p-0">
+          <div
+            className="h-32 w-32 md:h-40 md:w-40 bg-no-repeat bg-cover bg-top rounded-full"
+            style={{ backgroundImage: 'url("/me.jpg")' }}></div>
 
-          <p className="text-blue-100 text-2xl leading-loose">
-            My name is Muhammad Usman Ghani im 22 years old.
-          </p>
+          <div className="mt-5 md:mt-10 text-center">
+            <p className="text-blue-100 font-thin text-2xl md:text-4xl  md:mb-2">Hello, Im</p>
 
-          <p className="text-blue-100 text-2xl leading-loosel">
-            Im a front-end engineer at.{' '}
-            <Link href="https://mvssive.com/">
-              <a className="text-yellow-600 hover:text-yellow-500" target="_blank">
-                Mvssive ventures
-              </a>
-            </Link>
-          </p>
+            <h1 className="font-semibold text-2xl md:text-6xl text-blue-200 font-bold  md:mb-2">
+              Muhammad Usman Ghani
+            </h1>
 
-          <p className="text-blue-100 text-2xl leading-loose">
-            living in pakistan and follwoing my dream with a passionate heart.
-          </p>
+            <p className="text-blue-100 text-xl md:text-4xl">and this is my portfolio</p>
+          </div>
 
-          <div className="mt-8">
+          <RasumeBtn sm />
+
+          <div className="mt-8 md:mt-0">
+            <p className="text-blue-100 text-center text-md md:text-2xl">
+              Im a front-end engineer at{' '}
+              <Link href="https://mvssive.com/">
+                <a className="text-yellow-600 hover:text-yellow-500" target="_blank">
+                  Mvssive ventures
+                </a>
+              </Link>
+            </p>
+
+            <p className="text-blue-100 text-center text-md md:text-2xl">
+              living in pakistan and follwoing my dream with a passionate heart.
+            </p>
+          </div>
+
+          <RasumeBtn />
+
+          <div className="md:mt-8 text-center">
+            <a
+              href="mailto:usmanghanidev@gmail.com"
+              className="text-yellow-600 hover:text-yellow-500 mr-3">
+              Email me
+            </a>
             <Link href="https://github.com/usmanghanidev">
               <a className="text-yellow-600 hover:text-yellow-500 mr-3" target="_blank">
                 Github
@@ -53,3 +70,16 @@ export default function Index({}) {
     </section>
   );
 }
+
+const RasumeBtn = ({ sm }) => {
+  return (
+    <button
+      className={`my-10 bg-yellow-600 hover:bg-yellow-700 text-white py-2 px-4 rounded ${
+        sm ? 'hidden md:block' : 'block md:hidden'
+      }`}>
+      <a href="/usmanghani.pdf" download="muhammad-usman-ghani-resume">
+        Download Resume
+      </a>
+    </button>
+  );
+};
