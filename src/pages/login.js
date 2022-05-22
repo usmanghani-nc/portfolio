@@ -3,7 +3,7 @@ import { useEffect } from 'react';
 
 export default function Login() {
   useEffect(() => {
-    authService.authUser();
+    // authService.authUser();
   }, []);
   return (
     <div>

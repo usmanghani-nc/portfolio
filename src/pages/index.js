@@ -1,10 +1,9 @@
 import Link from 'next/link';
-import Title from 'components/title';
+// import Title from 'components/title';
 
 export default function Index({}) {
   return (
     <section className="bg-gray-700 h-screen">
-      <Title />
       <div className="container mx-auto h-full">
         <div className="flex flex-col md:justify-center items-center h-full p-4 pt-20 md:p-0">
           <div
