@@ -1,4 +1,4 @@
-import { authService } from 'firebase-config/service';
+import { authService } from '/src/firebase-config/service';
 import { useEffect } from 'react';
 
 export default function Login() {

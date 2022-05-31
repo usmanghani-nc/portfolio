@@ -11,30 +11,21 @@ export default function Index({}) {
             style={{ backgroundImage: 'url("/me.jpg")' }}></div>
 
           <div className="mt-5 md:mt-10 text-center">
-            <p className="text-blue-100 font-thin text-2xl md:text-4xl  md:mb-2">Hello, Im</p>
+            <p className="text-blue-100 font-thin text-2xl md:text-4xl  md:mb-2">Hi, there👋</p>
 
-            <h1 className="font-semibold text-2xl md:text-6xl text-blue-200 font-bold  md:mb-2">
+            <h1 className="text-2xl md:text-6xl text-blue-200 font-bold  md:mb-2">
               Muhammad Usman Ghani
             </h1>
-
-            <p className="text-blue-100 text-xl md:text-4xl">and this is my portfolio</p>
           </div>
 
           <RasumeBtn sm />
 
           <div className="mt-8 md:mt-0">
             <p className="text-blue-100 text-center text-md md:text-2xl">
-              Im a front-end engineer at{' '}
-              <Link href="https://mvssive.com/">
-                <a className="text-yellow-600 hover:text-yellow-500" target="_blank">
-                  Mvssive ventures
-                </a>
-              </Link>
+              I&apos;m a Software Developer
             </p>
 
-            <p className="text-blue-100 text-center text-md md:text-2xl">
-              living in pakistan and follwoing my dream with a passionate heart.
-            </p>
+            <p className="text-blue-100 text-center text-md md:text-2xl"></p>
           </div>
 
           <RasumeBtn />
