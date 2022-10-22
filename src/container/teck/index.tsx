@@ -40,8 +40,6 @@ export default function Teck({}) {
           </div>
         </div>
       </div>
-
-      {/* <div className="py-[100px]"></div> */}
     </Page>
   );
 }

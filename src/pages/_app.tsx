@@ -10,7 +10,7 @@ function MyApp({ Component, pageProps }: AppProps) {
         <meta property="og:title" content="Usman Ghani - Portfolio" key="title" />
         <meta
           name="description"
-          content=" Hi folks, My name is Muhammad Usman Ghani i live in Pakistan, Karachi city of where you
+          content="Hi folks, My name is Muhammad Usman Ghani i live in Pakistan, Karachi city of where you
           find all kind of good food. For past 3 years i`ve been working as a Sofware Engineer and
           building good things around Javascript."
         />
