@@ -4,17 +4,18 @@ import Page from 'layout/page';
 const teckList: String[] = [
   'ReactJs',
   'NextJS',
-  'Angular',
+  'Angular2x',
   'NodeJS',
   'React Native',
   'MongoDB',
-  'AWS (Lambda, s3, ec2)',
-  'HTML 5/CSS/JavaScript(es6)',
+  'MySQL',
+  'Amazon Web Services (AWS)',
+  'HTML5/CSS3',
+  'SCSS/SASS',
+  'JavaScript (ESx)/Typescript',
+  'Styled-Components',
   'Git/Webpack/Babel',
   'Web Extensions',
-  'SCSS/SASS',
-  'Styled-Components',
-  'Tailwindcss',
 ];
 
 export default function Teck({}) {
