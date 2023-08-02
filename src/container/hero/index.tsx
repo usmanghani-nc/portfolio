@@ -24,7 +24,7 @@ export default function Index({}) {
       <div className="flex flex-col md:justify-center items-center p-4 pt-20 md:p-0">
         <div
           className="h-32 w-32 md:h-40 md:w-40 bg-no-repeat bg-cover bg-top rounded-full"
-          style={{ backgroundImage: 'url("/me.jpg")' }}
+          style={{ backgroundImage: "url('/me.jpg')" }}
         ></div>
 
         <div className="mt-5 md:mt-10 text-center">

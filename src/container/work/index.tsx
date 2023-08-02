@@ -32,6 +32,7 @@ export default function Index({}) {
           {projects.map((el, idx) => {
             return (
               <div
+                key={idx}
                 className={`max-w-sm rounded shadow-lg hover:shadow-xl transition ${
                   projects.length - 1 !== idx && "mr-10"
                 }`}

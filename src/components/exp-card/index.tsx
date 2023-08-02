@@ -20,7 +20,7 @@ const RasumeBtn: React.FC<Props> = ({ data }) => {
             {data.name}
           </h3>
           <p className="text-secondary-text text-[14px]">
-            <span className="">{data.joinDate}</span> -{" "}
+            <span>{data.joinDate}</span> -{""}
             <span>{data.leftDate}</span>
           </p>
         </div>

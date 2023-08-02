@@ -1,13 +1,17 @@
-import { AppProps } from 'next/app';
-import Head from 'next/head';
-import '../scss/main.scss';
+import { AppProps } from "next/app";
+import Head from "next/head";
+import "../scss/main.scss";
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
     <>
       <Head>
         <title>Usman Ghani - Portfolio</title>
-        <meta property="og:title" content="Usman Ghani - Portfolio" key="title" />
+        <meta
+          property="og:title"
+          content="Usman Ghani - Portfolio"
+          key="title"
+        />
         <meta
           name="description"
           content="Hi folks, My name is Muhammad Usman Ghani i live in Pakistan, Karachi city of where you
