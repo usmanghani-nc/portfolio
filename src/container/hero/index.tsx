@@ -9,12 +9,12 @@ interface IMedia {
 
 const media: IMedia[] = [
   { href: "mailto:usmanghanidev@gmail.com", text: "Email Me" },
-  { href: "https://github.com/usmanghanidev", text: "Github" },
+  { href: "https://github.com/usmanghani-nc", text: "Github" },
   { href: "https://twitter.com/usmanghanidev", text: "Twitter" },
-  { href: "https://www.hackerrank.com/usmanghanidev", text: "Hacker Rank" },
+  // { href: "https://www.hackerrank.com/usmanghanidev", text: "Hacker Rank" },
   {
     href: "https://www.linkedin.com/in/muhammad-usman-ghani-92a97b195/",
-    text: "Linkdin",
+    text: "LinkedIn",
   },
 ];
 

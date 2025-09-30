@@ -11,9 +11,12 @@ export default function About({}) {
           </h2>
 
           <p className="text-secondary-text w-[50%] mx-auto text-[18px] md:mb-5">
-            Hi folks, My name is Muhammad Usman Ghani i live in Pakistan. For
-            past 4 years i have been working as a Sofware Engineer and and
-            building all good things around Javascript.
+            With over 6 years of experience in software engineering, I
+            specialize in building scalable B2B and SaaS applications. My core
+            expertise lies in MERN stack, Django REST Framework, AWS Serverless,
+            Angular, React-Native and Next.js. I enjoy solving complex problems,
+            designing efficient architectures, and delivering impactful digital
+            solutions.
           </p>
         </div>
       </div>

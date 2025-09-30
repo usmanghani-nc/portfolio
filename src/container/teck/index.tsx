@@ -9,13 +9,17 @@ const teckList: String[] = [
   "React Native",
   "MongoDB",
   "MySQL",
+  "PostgreSQL",
   "Amazon Web Services (AWS)",
   "HTML5/CSS3",
   "SCSS/SASS",
+  "TailwindCSS",
   "JavaScript (ESx)/Typescript",
   "Styled-Components",
   "Git/Webpack/Babel",
   "Web Extensions",
+  "Python",
+  "Django Rest Framework",
 ];
 
 export default function Teck({}) {

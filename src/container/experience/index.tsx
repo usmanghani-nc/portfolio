@@ -11,10 +11,16 @@ interface IExperienceWork {
 
 const experienceWork: IExperienceWork[] = [
   {
+    name: "Nymcard",
+    text: "Working as a Fullstack Engineer React/Djagno Rest, React Native, Develop & Maintained Maginto plugin. Translate wireframes into functional requirements, and write well-abstracted, reusable, high- performance code for UI components.",
+    joinDate: "Jun, 2024",
+    leftDate: "Prasent",
+  },
+  {
     name: "Speridian Technologies",
     text: "Worked with AWS cloud services such as Lambda funtions, ec2 instace, s3 bucket, API gateway and cloudformation. Worked on server-side web applications using Node.js and was involved in the Construction of UI using, ReactJS, NextJS, Angular 8. Developed Single Page Web Application with React.js, Redux, Express.js, Node.js, REST API, and MongoDB. Used Mongoose to write CRUD operations for retrieving and updating data. Used Postman to test API and used GIT as a version control tool. Worked with MERN stack for developing applications. Architect, Design and develop front-end applications. Translate wireframes into functional requirements, and write well-abstracted, reusable, high- performance code for UI components.",
     joinDate: "Aug, 2022",
-    leftDate: "Prasent",
+    leftDate: "Jun, 2024",
   },
   {
     name: "Get Licensed",
