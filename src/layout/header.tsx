@@ -24,7 +24,7 @@ export default function header() {
             </Link>
           </div>
 
-          <RasumeBtn sm />
+          <RasumeBtn />
         </div>
       </div>
     </header>

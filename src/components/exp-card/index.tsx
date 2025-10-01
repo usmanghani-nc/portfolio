@@ -13,7 +13,7 @@ interface Props {
 
 const RasumeBtn: React.FC<Props> = ({ data }) => {
   return (
-    <div className="w-[50%] mx-auto mb-[35px] drop-shadow-md">
+    <div className="w-full md:w-[50%] mx-auto mb-[35px] drop-shadow-md">
       <div className="rounded bg-[#f6f6f7] px-[20px] py-[10px]">
         <div className="flex items-center justify-between">
           <h3 className="text-primary-text font-semibold text-[18px]">

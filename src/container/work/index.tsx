@@ -23,18 +23,18 @@ const projects = [
 export default function Index({}) {
   return (
     <div className="flex flex-col md:justify-center items-center bg-[#f6f6f7] drop-shadow-xl">
-      <div className="mt-5 md:my-10 text-center">
-        <h2 className="text-primary-text font-bold text-2xl md:text-4xl md:mb-5">
+      <div className="mt-3 md:my-10 text-center">
+        <h2 className="text-primary-text font-bold text-2xl md:text-4xl mb-5">
           My Work 👨‍💻
         </h2>
 
-        <div className="flex items-start m-[70px]">
+        <div className="flex flex-wrap items-start justify-center  md:m-[70px]">
           {projects.map((el, idx) => {
             return (
               <div
                 key={idx}
-                className={`max-w-sm rounded shadow-lg hover:shadow-xl transition ${
-                  projects.length - 1 !== idx && "mr-10"
+                className={`max-w-sm rounded shadow-lg hover:shadow-xl mb-5 md:mb-0 transition ${
+                  projects.length - 1 !== idx && "md:mr-10"
                 }`}
               >
                 <MediaLinks href={el.link}>

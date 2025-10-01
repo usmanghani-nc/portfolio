@@ -10,7 +10,7 @@ export default function About({}) {
             About me 🤙
           </h2>
 
-          <p className="text-secondary-text w-[50%] mx-auto text-[18px] md:mb-5">
+          <p className="text-secondary-text md:w-[50%] mx-auto text-[14px] md:text-[18px] mb-5">
             With over 6 years of experience in software engineering, I
             specialize in building scalable B2B and SaaS applications. My core
             expertise lies in MERN stack, Django REST Framework, AWS Serverless,
